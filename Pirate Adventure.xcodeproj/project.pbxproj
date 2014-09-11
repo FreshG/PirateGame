@@ -12,7 +12,6 @@
 		58BBD28019C0870400C12A52 /* KDArmor.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BBD27F19C0870400C12A52 /* KDArmor.m */; };
 		58BBD28319C0875900C12A52 /* KDCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BBD28219C0875900C12A52 /* KDCharacter.m */; };
 		58BBD28619C0A23100C12A52 /* KDBoss.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BBD28519C0A23100C12A52 /* KDBoss.m */; };
-		58BBD28919C1917E00C12A52 /* KDxx.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BBD28819C1917E00C12A52 /* KDxx.m */; };
 		58D8AFD519C04570001C8E58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58D8AFD419C04570001C8E58 /* Foundation.framework */; };
 		58D8AFD719C04571001C8E58 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58D8AFD619C04571001C8E58 /* CoreGraphics.framework */; };
 		58D8AFD919C04571001C8E58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58D8AFD819C04571001C8E58 /* UIKit.framework */; };
@@ -63,8 +62,6 @@
 		58BBD28219C0875900C12A52 /* KDCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDCharacter.m; sourceTree = "<group>"; };
 		58BBD28419C0A23100C12A52 /* KDBoss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDBoss.h; sourceTree = "<group>"; };
 		58BBD28519C0A23100C12A52 /* KDBoss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDBoss.m; sourceTree = "<group>"; };
-		58BBD28719C1917E00C12A52 /* KDxx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDxx.h; sourceTree = "<group>"; };
-		58BBD28819C1917E00C12A52 /* KDxx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDxx.m; sourceTree = "<group>"; };
 		58D8AFD119C04570001C8E58 /* Pirate Adventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pirate Adventure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58D8AFD419C04570001C8E58 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		58D8AFD619C04571001C8E58 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -235,8 +232,6 @@
 			children = (
 				58D8B01119C07103001C8E58 /* PirateAttack.jpg */,
 				58D8B01219C07103001C8E58 /* PirateBlacksmith.jpeg */,
-				58BBD28719C1917E00C12A52 /* KDxx.h */,
-				58BBD28819C1917E00C12A52 /* KDxx.m */,
 				58D8B01319C07103001C8E58 /* PirateBoss.jpeg */,
 				58D8B01419C07103001C8E58 /* PirateFriendlyDock.jpg */,
 				58D8B01519C07103001C8E58 /* PirateOctopusAttack.jpg */,
@@ -369,7 +364,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58BBD28919C1917E00C12A52 /* KDxx.m in Sources */,
 				58D8B00C19C04CA1001C8E58 /* KDTile.m in Sources */,
 				58D8AFEB19C04571001C8E58 /* KDViewController.m in Sources */,
 				58BBD28019C0870400C12A52 /* KDArmor.m in Sources */,
